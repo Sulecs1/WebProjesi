@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.6.2" />
+    <PackageReference Include="NLog" Version="4.7.2" />
+    <PackageReference Include="NLog.Config" Version="4.7.2" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogProjem.DataAccess\BlogProjem.DataAccess.csproj" />
+    <ProjectReference Include="..\BlogProjem.DTO\BlogProjem.DTO.csproj" />
+    <ProjectReference Include="..\BlogProjem.Entities\BlogProjem.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

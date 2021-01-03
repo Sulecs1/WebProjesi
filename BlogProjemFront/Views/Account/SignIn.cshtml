@@ -1,0 +1,39 @@
+@model AppUserLoginModel
+@{
+    Layout=null;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş</title>
+    <link rel="stylesheet" href="/css/simplex.css">
+</head>
+<body>
+    <form asp-action="SignIn" method="POST" class="w-50 mt-5 p-3 mx-auto shadow">
+<div class="from-group">
+    <label for="UserName">KullanıcıAdı</label>
+    <input asp-for="UserName" class="form-control" >
+
+</div>
+<div class="from-group">
+    <label for="my-input">Şifre</label>
+     <input asp-for="Password" type="password" class="form-control" >
+
+</div>
+<div class="form-group">
+    <button type="submit" class="btn btn-info btn-block">Giriş Yap</button>
+
+</div>
+</form>
+
+    
+</body>
+</html>
+
+
+
+
+

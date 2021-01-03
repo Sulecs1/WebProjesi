@@ -1,0 +1,22 @@
+@model List<CategoryListModel>
+<a asp-action="Create" asp-controller="Category" asp-area="Admin" class="btn btn-outline-info btn-sm my-2">Yeni Kategori</a>
+<table class="table table-dark table-hover table-sm">
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <th>Ad</th>
+                <th>İşlem</th>
+            </tr>
+               <tr>
+                     <td>@category.Name</td>
+                     <td>
+                         <a asp-action="Update" asp-route-id="@category.Id" class="btn btn-warning btn-sm">Düzenle</a>
+                          <a asp-action="Delete" asp-route-id="@category.Id" class="btn btn-danger  btn-sm">Sil</a>
+                     </td>
+              </tr>
+            
+        }
+       
+    </tbody>
+</table>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+6ozNJUJ2s4eakSOvZBoOVEgZqSv/QbSYHy6C1CwsGyLAGaAvxyR3GwDc0466BThjIAXC024ewW779RsTMdFdw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Suleakcay\\Desktop\\BlogProjemFront\\BlogProjemFront.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Suleakcay\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
